@@ -15,11 +15,12 @@ function addFiles(mocha, files) {
   glob.sync(root + files).forEach(mocha.addFile.bind(mocha));
 }
 
-addFiles(mocha, '/**/*-test.js');
-
-if (arg === 'all') {
-  addFiles(mocha, '/**/*-slow.js');
-}
+addFiles(mocha, '/**/eslint-test.js');
+// addFiles(mocha, '/**/*-test.js');
+//
+// if (arg === 'all') {
+//   addFiles(mocha, '/**/*-slow.js');
+// }
 
 mocha.run(function(failures) {
   process.on('exit', function() {

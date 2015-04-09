@@ -139,6 +139,7 @@
     "github": "^0.2.3",
     "istanbul": "^0.3.13",
     "mocha": "^2.2.1",
+    "mocha-eslint": "^0.1.4",
     "mocha-jshint": "1.0.0",
     "multiline": "^1.0.2",
     "nock": "^1.2.1",

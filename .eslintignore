@@ -1,0 +1,4 @@
+tests/fixtures/**
+blueprints/**/__*.js
+
+# Note: node_modules ignored by default
